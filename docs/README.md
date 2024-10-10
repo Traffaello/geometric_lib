@@ -19,3 +19,17 @@
 - Square: `P = 4a`
 - Triangle: `P = a + b + c`
 
+# Commits
+## L-03
+- Circle and square added
+- Docs added
+- Docs added
+## L-04
+- Triangle added
+- Doc updated for triangle
+- Add calculate.py
+- Update docs for calculate.py
+- Add rectangle.py
+## L-05
+- Add user agreement
+- Update docs. Add user agreement info
