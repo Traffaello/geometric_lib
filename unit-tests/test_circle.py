@@ -38,5 +38,5 @@ class TestCaseCircle(unittest.TestCase):
             area(-5)
 
 
-if _name_ == "_main_":
+if _name_ == "__main__":
     unittest.main()
