@@ -7,14 +7,14 @@ sys.path.append("..")
 
 
 class TestCaseCircle(unittest.TestCase):
-    def perimetr_standart_1(self):
+    def perimeter_standart_1(self):
         self.assertAlmostEqual(perimeter(5), 10 * math.pi)
 
-    def perimetr_standart_2(self):
+    def perimeter_standart_2(self):
         self.assertAlmostEqual(perimeter(2), 4 * math.pi)
 
-    def perimetr_standart_3(self):
-        self.assertEqual(perimetr(0), 0)
+    def perimeter_standart_3(self):
+        self.assertEqual(perimeter(0), 0)
 
     def area_standart_1(self):
         self.assertAlmostEqual(area(5), 25 * math.pi)
@@ -25,7 +25,7 @@ class TestCaseCircle(unittest.TestCase):
     def area_standart_3(self):
         self.assertEqual(area(0), 0)
 
-    def perimetr_invalid(self):
+    def perimeter_invalid(self):
         with self.assertRaises(TypeError):
             perimeter("five")
         with self.assertRaises(ValueError):
