@@ -15,7 +15,7 @@ class TestCaseTriangle(unittest.TestCase):
     def perimeter_standart_3(self):
         self.assertEqual(perimeter(5, 0, 5), 0)
 
-    def perimeter_standart_3(self):
+    def perimeter_standart_4(self):
         self.assertEqual(perimeter(5, 5, 0), 0)
 
     def area_standart_1(self):
