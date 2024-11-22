@@ -15,7 +15,7 @@ sizes = {
     "circle-perimeter": 1,
     "square-area": 1,
     "square-perimeter": 1,
-    "triangle-area": 3,
+    "triangle-area": 2,
     "triangle-perimeter": 3,
 }
 
@@ -31,8 +31,9 @@ def calc(fig, func, size):
     assert all(s >= 0 for s in size)
 
     if fig == "triangle":
-        a, b, c = size
-        assert a + b > c and a + c > b and b + c > a, "Invalid triangle sides"
+        if func == "perimeter":
+            a, b, c = size
+            assert a + b > c and a + c > b and b + c > a, "Invalid triangle sides"
 
     module = fig_modules[fig]
     func_to_call = getattr(module, func)
