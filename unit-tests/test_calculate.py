@@ -83,14 +83,14 @@ class TestCalculate(unittest.TestCase):
 
     def test_neg_size_triangle(self):
         fig = "triangle"
-        func = "perimetr"
+        func = "perimeter"
         size = [-5, -7, -4]
         with self.assertRaises(AssertionError):
             calc(fig, func, size)
 
     def test_wrong_size_triangle(self):
         fig = "triangle"
-        func = "perimetr"
+        func = "perimeter"
         size = [1, 2, 10]
         with self.assertRaises(AssertionError):
             calc(fig, func, size)
