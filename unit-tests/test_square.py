@@ -37,5 +37,5 @@ class TestCaseSquare(unittest.TestCase):
             area(-5)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()
