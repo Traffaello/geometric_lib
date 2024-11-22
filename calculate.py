@@ -33,7 +33,7 @@ def calc(fig, func, size):
     if fig == "triangle":
         if func == "perimeter":
             a, b, c = size
-            assert a + b > c and a + c > b and b + c > a, "Invalid triangle sides"
+            assert a + b > c and a + c > b and b + c > a, "Invalid triangle"
 
     module = fig_modules[fig]
     func_to_call = getattr(module, func)
