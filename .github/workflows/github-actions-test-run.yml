@@ -3,12 +3,12 @@ name: Workflow tests geometry
 on: 
   push:
     branches:     
-      - tests
-      - release/*  
+      - main
+      - release  
   pull_request:
     branches:     
       - main
-      - release/*      
+      - release      
       - develop
 
 jobs:  
